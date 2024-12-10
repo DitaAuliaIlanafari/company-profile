@@ -13,7 +13,7 @@ import Image from "next/image";
 export const ListProperty = () => {
   return (
     <>
-      <section className="w-full mt-16 sm:mt-24 md:mt-32 px-5 sm:px-10 md:px-24 sxl:px-32 flex flex-col items-center justify-center">
+      <section className="w-full mt-16 sm:mt-24 px-5 sm:px-10 md:px-24 sxl:px-32 flex flex-col items-center justify-center">
         <div className="w-full flex justify-center">
           <h2 className="w-fit inline-block font-bold capitalize text-2xl md:text-4xl text-blue-500">
             Our Properties

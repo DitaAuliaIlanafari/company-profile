@@ -19,7 +19,7 @@ export default function Teams() {
   return (
     <section className="w-full mt-16 sm:mt-24  px-5 sm:px-10 md:px-24 sxl:px-32 flex flex-col items-center justify-center">
       <div className="w-full flex justify-between ">
-        <h2 className="w-full inline-block font-bold capitalize text-2xl md:text-4xl">
+        <h2 className="w-full text-center text-blue-500 inline-block font-bold capitalize text-2xl md:text-4xl">
           Our Management Team
         </h2>
       </div>
@@ -28,7 +28,7 @@ export default function Teams() {
           return (
             <div key={index}>
               <article className="col-span-1 row-span-1 relative">
-                <Card className="w-full h-64 border-blue-400">
+                <Card className="w-full h-64 border-blue-400 rounded-lg">
                   <div className="flex flex-col items-center">
                     <div>
                       {results?.image_url && (

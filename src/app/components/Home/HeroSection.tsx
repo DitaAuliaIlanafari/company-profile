@@ -18,7 +18,7 @@ const HeroSection = () => {
         className="h-full md:w-full object-center object-cover rounded-3xl -z-10 "
       />
       <div className="w-full lg:w-3/4 p-6 sm:p-8 md:p-12 lg:p-16 flex flex-col items-start justify-center z-0 text-light">
-        <h1 className="font-bold capitalize bg-white p-1 md:p-3 mt-6 text-lg sm:text-xl md:text-3xl lg:text-4xl">
+        <h1 className="font-bold capitalize text-blue-500 bg-white p-1 md:p-3 mt-6 text-lg sm:text-xl md:text-3xl lg:text-4xl">
           Estate Group
         </h1>
         <p className=" hidden sm:inline-block mt-4 md:text-lg lg:text-xl text-white font-sans">

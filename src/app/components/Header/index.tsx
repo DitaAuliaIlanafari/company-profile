@@ -14,7 +14,7 @@ const Header = () => {
     <header className=" w-full p-4 px-5 md:px-10 fixed top-0 bg-white flex items-center justify-between z-50">
       <div>
         <a className="w-max py-3 font-bold text-lg " href="/">
-          Estate<span className="text-blue-600">Group</span>
+          Estate<span className="text-blue-500">Group</span>
         </a>
       </div>
       <button className="inline-block sm:hidden px-3 z-50" onClick={toggle}>
@@ -72,7 +72,7 @@ const Header = () => {
           About
         </Link>
         <Link
-          href="/"
+          href="property/"
           className="text-sm md:text-lg mx-1 md:mx-2 hover:scale-110 transition-all ease duration-200"
         >
           Property

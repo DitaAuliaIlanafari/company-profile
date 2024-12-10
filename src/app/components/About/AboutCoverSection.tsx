@@ -14,7 +14,9 @@ const AboutCoverSection = () => {
       </div>
 
       <div className="w-full md:w-1/2 flex flex-col text-left items-start justify-center p-10 md:mr-12 xs:p-10 pb-10 lg:px-16">
-        <h2 className="font-bold capitalize text-2xl md:text-5xl">About Us</h2>
+        <h2 className="font-bold text-blue-500 capitalize text-2xl md:text-5xl">
+          About Us
+        </h2>
         <p className="font-medium capitalize mt-4 text-sm md:text-base">
           Welcome to Estate Group, where we pride ourselves on being leaders in
           the real estate industry. Founded in 2012, our company has grown from
