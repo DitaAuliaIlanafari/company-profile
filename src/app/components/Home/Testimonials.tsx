@@ -1,4 +1,4 @@
-import { Avatar, Blockquote, Rating, RatingStar, Card } from "flowbite-react";
+import { Blockquote, Rating, RatingStar, Card } from "flowbite-react";
 
 import React from "react";
 
@@ -23,9 +23,9 @@ const Testimonials = () => {
               </div>
               <Blockquote>
                 <p className="text-sm md:text-base font-normal text-gray-900 ">
-                  "Flowbite is just awesome. It contains tons of predesigned
+                  EstateGroup is just awesome. It contains tons of predesigned
                   components and pages starting from login screen to complex
-                  dashboard. Perfect choice for your next SaaS application."
+                  dashboard. Perfect choice for your next SaaS application.
                 </p>
               </Blockquote>
               <figcaption className="mt-6 flex items-center space-x-3">
@@ -52,9 +52,9 @@ const Testimonials = () => {
               </div>
               <Blockquote>
                 <p className="text-sm md:text-base font-normal text-gray-900 ">
-                  "Their dedication and market knowledge helped us find the
+                  Their dedication and market knowledge helped us find the
                   perfect home quickly and within our budget. We highly
-                  recommend to anyone looking for a trustworthy agent."
+                  recommend to anyone looking for a trustworthy agent.
                 </p>
               </Blockquote>
               <figcaption className="mt-6 flex items-center space-x-3">
@@ -81,10 +81,10 @@ const Testimonials = () => {
               </div>
               <Blockquote>
                 <p className="text-sm md:text-base font-normal text-gray-900 ">
-                  "Their made the entire process of selling our home. Their
+                  Their made the entire process of selling our home. Their
                   professionalism, attention to detail, and excellent
                   communication skills were invaluable. It such a great
-                  experience."
+                  experience.
                 </p>
               </Blockquote>
               <figcaption className="mt-6 flex items-center space-x-3">

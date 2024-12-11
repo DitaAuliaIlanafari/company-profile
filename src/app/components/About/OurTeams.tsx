@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { Card } from "flowbite-react";
 import Image from "next/image";
 import Img1 from "@/../../public/assets/agent-1.jpg";

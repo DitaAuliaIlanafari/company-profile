@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import heroImg from "@/../../public/assets/slide-2.jpg";
 

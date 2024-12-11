@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useState } from "react";
 
 const Header = () => {
@@ -13,9 +12,9 @@ const Header = () => {
   return (
     <header className=" w-full p-4 px-5 md:px-10 fixed top-0 bg-white flex items-center justify-between z-50">
       <div>
-        <a className="w-max py-3 font-bold text-lg " href="/">
+        <Link className="w-max py-3 font-bold text-lg " href="/">
           Estate<span className="text-blue-500">Group</span>
-        </a>
+        </Link>
       </div>
       <button className="inline-block sm:hidden px-3 z-50" onClick={toggle}>
         <div className="w-6 cursor-pointer transition-all ease duration-300">
